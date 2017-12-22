@@ -36,6 +36,9 @@ body {
   color: #ffcc00;
 }
 
+.container .row.cards .card {
+  border-radius: 0 4rem 0 4rem;
+}
 .container .row.cards h2 {
   color: #ffcc00;
   font-weight: 700;
