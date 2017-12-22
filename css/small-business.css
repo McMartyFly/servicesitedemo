@@ -7,9 +7,76 @@
 body {
   padding-top: 54px;
 }
+.navbar-dark .navbar-nav .nav-link.static {
+  color: #929190;
+}
+.navbar-dark .navbar-nav .nav-link.static:hover {
+  color: #929190;
+}
 
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
   }
+}
+
+/*footer styles*/
+footer ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+footer ul li {
+  font-size: 34px;
+  display: inline;
+}
+
+/*footer social icon colors and hovers*/
+footer ul li a.fa-facebook-square {
+  color: #3B5998;
+}
+footer ul li a.fa-facebook-square:hover {
+  color: #5a7abf;
+}
+
+footer ul li a.fa-twitter-square {
+  color: #1DA1F2;
+}
+footer ul li a.fa-twitter-square:hover {
+  color: #56b8f5;
+}
+
+footer ul li a.fa-google-plus-square {
+  color: #DB4437;
+}
+footer ul li a.fa-google-plus-square:hover {
+  color: #e37268;
+}
+
+footer ul li a.fa-youtube-square {
+  color: #ff0000;
+}
+footer ul li a.fa-youtube-square:hover {
+  color: #ff4d4d;
+}
+
+footer ul li a.fa-instagram {
+  color: #C32AA3;
+}
+footer ul li a.fa-instagram:hover {
+  color: #db57bf;
+}
+
+footer ul li a.fa-linkedin-square {
+  color: #007BB5;
+}
+footer ul li a.fa-linkedin-square:hover {
+  color: #00aeff;
+}
+
+footer ul li a {
+  display: inline-block;
+}
+footer ul li a:hover {
+  text-decoration: none;
 }
