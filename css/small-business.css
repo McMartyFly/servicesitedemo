@@ -5,13 +5,41 @@
  */
 
 body {
+  background: #cce6ff;
   padding-top: 54px;
 }
-.navbar-dark .navbar-nav .nav-link.static {
-  color: #929190;
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .contact {
+  color: #ffcc00;
 }
-.navbar-dark .navbar-nav .nav-link.static:hover {
-  color: #929190;
+.navbar-dark .navbar-nav .contact {
+  display: block;
+  padding: 0.5rem;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #f5e8bc;
+}
+.navbar-dark .navbar-brand {
+  color: #ffcc00;
+}
+
+.banner-copy p span {
+  color: #000;
+  font-weight: 700;
+}
+.banner-copy span.gold {
+  color: #ffcc00;
+  text-shadow: 1px 1px #000;
+}
+
+.center-cta p span {
+  color: #ffcc00;
+}
+
+.container .row.cards h2 {
+  color: #ffcc00;
+  font-weight: 700;
+  text-shadow: 1px 1px #000;
 }
 
 @media (min-width: 992px) {
@@ -79,4 +107,8 @@ footer ul li a {
 }
 footer ul li a:hover {
   text-decoration: none;
+}
+
+footer p span {
+  color: #ffcc00;
 }
