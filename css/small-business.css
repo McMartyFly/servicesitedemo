@@ -37,7 +37,17 @@ body {
 }
 
 .container .row.cards .card {
+  border: 1px solid #ffcc00;
+}
+
+.container .row.cards .card1 {
   border-radius: 0 4rem 0 4rem;
+}
+.container .row.cards .card2 {
+  border-radius: 4rem 4rem 0 0;
+}
+.container .row.cards .card3 {
+  border-radius: 4rem 0 4rem 0;
 }
 .container .row.cards h2 {
   color: #ffcc00;
@@ -114,4 +124,12 @@ footer ul li a:hover {
 
 footer p span {
   color: #ffcc00;
+}
+
+@media (max-width: 770px) {
+  .container .row.cards .card1,
+  .container .row.cards .card2,
+  .container .row.cards .card3 {
+    border-radius: 0 4rem 0 4rem;
+  }
 }
